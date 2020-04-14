@@ -5,8 +5,12 @@
     --grey:#66707f;
 }
 
+#newreleases-module img {
+width:45%
+}
+
 .p {
   text-align: justify;
   text-justify: inter-word;}
 
-[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.1); }} /* just for testing; remove*/
+/*[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.1); }}  just for testing; remove*/
