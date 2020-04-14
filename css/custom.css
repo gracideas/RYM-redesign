@@ -1,0 +1,11 @@
+:root {
+    --darkblue:#01214c;
+    --blue:#264582;
+    --lightblue:#dae6ec;
+    --grey:#66707f;
+}
+
+.p { text-align: justify;
+  text-justify: inter-word;}
+
+[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.1); }} /* just for testing; remove*/
