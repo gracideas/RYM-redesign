@@ -5,16 +5,36 @@
     --grey:#66707f;
 }
 
+/*navigation*/
+
+nav {
+background-color: #dae6ec
+}
+
+#nav a {
+color: #264582
+}
+
+#navbarDropdown > img {
+border-radius: 50%
+}
 
 #newreleases-module img {
+  width:30%;
+  height: auto
 }
+
+/*navigation*/
 
 h2 {
 color: #01214c;
-font-weight: 800;
+font-weight: bolder;
+font-size: 3rem;
 }
 
-.p {
+
+
+p {
   text-align: justify;
   text-justify: inter-word;}
 
