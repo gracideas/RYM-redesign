@@ -13,4 +13,4 @@ width:45%
   text-align: justify;
   text-justify: inter-word;}
 
-/*[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.1); }}  just for testing; remove*/
+[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.1); }}  /*just for testing; remove*/
