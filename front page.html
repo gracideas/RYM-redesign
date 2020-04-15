@@ -24,7 +24,7 @@
 
   <!-- navigation -->
   <nav class="navbar navbar-expand-lg text text-right sticky-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand pr-2" href="#">
     <img src="file:///C:/Users/Usuario/Documents/GitHub/RYM-redesign/images/icon.png" width="30" height="30" alt="">&nbsp;Sonemic
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,26 +33,26 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav navbar-nav">
 
-        <li class="nav-item">
+        <li class="nav-item px-2">
           <a class="nav-link" href="#">Discover</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item px-2">
           <a class="nav-link" href="#">Add</a>
         </li>
     </ul>
     <div class="navbar-collapse">
     <ul class="navbar-nav ml-auto">
 
-      <li class="nav-item">
-        <a class="nav-link" href="#"><img src="file:///C:/Users/Usuario/Documents/GitHub/RYM-redesign/images/search.svg" width="25" height="25" alt="Inbox"></a>
+      <li class="nav-item px-2">
+        <a class="nav-link" href="#"><img src="file:///C:/Users/Usuario/Documents/GitHub/RYM-redesign/images/search.svg" width="25" height="25" alt="Search"></a>
       </li>
 
-        <li class="nav-item">
+        <li class="nav-item px-2">
           <a class="nav-link" href="#"><img src="file:///C:/Users/Usuario/Documents/GitHub/RYM-redesign/images/envelope.svg" width="25" height="25" alt="Inbox"></a>
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown pl-2">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img src="file:///C:/Users/Usuario/Documents/GitHub/RYM-redesign/images/tumblr_8cc2ed2bbc9038cab63189291acfb973_4f10d919_400.png" width="30" height="30" alt="Profile Settings">
           </a>
@@ -77,51 +77,80 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl ligula, rutrum eget velit ut, aliquam aliquam lorem. Ut ut erat tellus. Proin ultrices efficitur libero non blandit. Sed lobortis nisi at velit tincidunt faucibus. Aliquam erat volutpat. Morbi porttitor sodales porta. Aenean fringilla purus non sem facilisis auctor. Pellentesque accumsan ac tellus mollis volutpat. Vivamus accumsan vehicula gravida. Sed at hendrerit magna, non finibus libero. Aenean convallis fermentum diam nec dictum. Praesent quis bibendum justo. Sed velit neque, mattis in mi sit amet, ultrices dapibus leo.</p>
       </div>
 
-      <div class="col-6" id="right-module">
+      <div class="col-6 flex-grow" id="right-module">
+
         <h2>Recent</h2>
         <div class="col-lg d-flex justify-content-around align-middle" id="recent-module">
 
-        <div class="col-lg-5" id="recent-img">
-          <img src="https://i.postimg.cc/tTcS7KyL/5cf2b2c337188de6c13836634107ee327182bced.jpg" class="img-fluid float-left" alt="Loona">
-        </div>
+          <div class="col-lg-5 justify-content-center align-self-center px-0" id="recent-img">
+            <img src="https://i.postimg.cc/tTcS7KyL/5cf2b2c337188de6c13836634107ee327182bced.jpg" class="img-fluid float-left" alt="Loona">
+          </div>
 
-        <div class="col" id="recent-info">
-        <h3>Max & Match</h3>
-        Loona / Odd Eye Circle</br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl ligula, rutrum eget velit ut, aliquam aliquam lorem. Ut ut erat tellus. Proin ultrices efficitur libero non blandit. Sed lobortis nisi at velit tincidunt faucibus. </p>
-        </div>
+          <div class="col justify-content-center align-self-center" id="recent-info">
+            <h3>Max & Match</h3>
+            Loona / Odd Eye Circle</br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl ligula, rutrum eget velit ut, aliquam aliquam lorem. Ut ut erat tellus. Proin ultrices efficitur libero non blandit. Sed lobortis nisi at velit tincidunt faucibus. </p>
+          </div>
 
       </div>
         </br>
           <h2>New Releases</h2>
-        <div class="col" id="newreleases-module">
-            <div class="row"> <!-- top -->
-            <div class="col" id="newrelease-1">
-            <img src="https://i.postimg.cc/Y04rhWc3/BLACK-PINK-As-If-It-s-Your-Last.jpg" class="img-fluid float-left" alt="Loona">
-            <h3>As If It's Your Last</h3>
-            Blackpink</br>
-            <p>June 22</p>
+        <div class="col flex-grow" id="newreleases-module">
+            <div class="row flex-grow" id="new"> <!-- top -->
+              <div class="new-release col d-flex justify-content-around align-middle">
+
+                <div class="col-6 justify-content-center align-self-center px-0">
+                  <img src="https://i.postimg.cc/tTcS7KyL/5cf2b2c337188de6c13836634107ee327182bced.jpg" class="img-fluid float-left d-flex" alt="Loona">
+                </div>
+
+                <div class="col justify-content-center" id="newrelease-info">
+                  <h3>Femme Fatale</h3>
+                  Britney Spears</br>
+                  <p>March 25</p>
+                </div>
             </div>
 
-            <div class="col" id="newrelease-2">
-            <h3>Femme Fatale</h3>
-            Britney Spears</br>
-            <p>March 25</p>
-            </div>
+            <div class="new-release col d-flex justify-content-around align-middle">
+
+              <div class="col-6 justify-content-center align-self-center px-0">
+                <img src="https://i.postimg.cc/tTcS7KyL/5cf2b2c337188de6c13836634107ee327182bced.jpg" class="img-fluid float-left d-flex" alt="Loona">
+              </div>
+
+              <div class="col justify-content-center" id="newrelease-info">
+                <h3>Femme Fatale</h3>
+                Britney Spears</br>
+                <p>March 25</p>
+              </div>
+          </div>
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+
+            <!-- bottom -->
+              <div class="new-release col d-flex justify-content-around align-middle">
+
+                <div class="col-6 justify-content-center align-self-center px-0">
+                  <img src="https://i.postimg.cc/tTcS7KyL/5cf2b2c337188de6c13836634107ee327182bced.jpg" class="img-fluid float-left d-flex" alt="Loona">
+                </div>
+
+                <div class="col justify-content-center" id="newrelease-info">
+                  <h3>Femme Fatale</h3>
+                  Britney Spears</br>
+                  <p>March 25</p>
+                </div>
             </div>
 
-            <div class="row">  <!-- bottom -->
-            <div class="col" id="newrelease-3">
-            <h3>Triangle</h3>
-            Perfume</br>
-            <p>July 8</p>
-            </div>
+            <div class="new-release col d-flex justify-content-around align-middle">
 
-            <div class="col" id="newrelease-4">
-            <h3>'The Reve Festival' Finale</h3>
-            Red Velvet</br>
-            <p>December 23</p>
-            </div>
+              <div class="col-6 justify-content-center align-self-center px-0">
+                <img src="https://i.postimg.cc/tTcS7KyL/5cf2b2c337188de6c13836634107ee327182bced.jpg" class="img-fluid float-left d-flex" alt="Loona">
+              </div>
+
+              <div class="col justify-content-center" id="newrelease-info">
+                <h3>Femme Fatale</h3>
+                Britney Spears</br>
+                <p>March 25</p>
+              </div>
+          </div>
             </div>
           </div>
           </div>

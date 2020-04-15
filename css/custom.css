@@ -19,9 +19,9 @@ color: #264582
 border-radius: 50%
 }
 
-#newreleases-module img {
-  width:30%;
-  height: auto
+#newreleases-module > img {
+width:80%
+height:auto
 }
 
 /*navigation*/
@@ -32,7 +32,19 @@ font-weight: bolder;
 font-size: 3rem;
 }
 
+h3 {
+color: #01214c;
+font-weight: bolder;
+font-style: italic;
+}
 
+#recent-info > h3 {
+font-size: 2rem;
+}
+
+#newrelease-info > h3 {
+font-size: 1.7rem;
+}
 
 p {
   text-align: justify;
