@@ -1,12 +1,17 @@
 :root {
-    --darkblue:#01214c;
+    --navyblue:#01214c;
     --blue:#264582;
     --lightblue:#dae6ec;
     --grey:#66707f;
 }
 
+
 #newreleases-module img {
-width:45%
+}
+
+h2 {
+color: #01214c;
+font-weight: 800;
 }
 
 .p {
