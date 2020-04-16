@@ -19,22 +19,12 @@ color: var(--blue)
 border-radius: 50%
 }
 
-#newreleases-module > img {
-width:80%
-height:auto
-}
-
-#secondaryreview-img > img {
-width:70%;
-height:auto
-}
-
 /*text formatting*/
 
 h2 {
 color: var(--navyblue);
 font-weight: bolder;
-font-size: 2.5rem;
+font-size: 2.1rem;
 line-height: 1;
 }
 
@@ -42,7 +32,7 @@ h3 {
 color: var(--navyblue);
 font-weight: bolder;
 font-style: italic;
-font-size: 1.9rem;
+font-size: 1.7rem;
 line-height: 1;
 margin-bottom: 0;
 }
@@ -55,7 +45,7 @@ line-height: 1.1;
 .artist-name {
 font-weight: bold;
 color: var(--grey);
-font-size: 1.5rem;
+font-size: 1.3rem;
 text-align: justify;
 text-justify: inter-word;
 line-height: 1;
