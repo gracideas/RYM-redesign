@@ -29,7 +29,7 @@ width:70%;
 height:auto
 }
 
-/*navigation*/
+/*text formatting*/
 
 h2 {
 color: #01214c;
@@ -42,14 +42,39 @@ color: #01214c;
 font-weight: bolder;
 font-style: italic;
 font-size: 2rem;
+line-height: 1;
+margin-bottom: 0;
 }
 
 #newrelease-info > h3 {
 font-size: 1.7rem;
+line-height: 1.1;
+}
+
+.artist-name {
+font-weight: bold;
+color: #66707f;
+font-size: 1.5rem;
+text-align: justify;
+text-justify: inter-word;
+line-height: 1;
+}
+
+#newrelease-info > .artist-name {
+font-size: 1.1rem;
+line-height: 0;
+}
+
+.release-date {
+color: #66707f;
+text-align: justify;
+text-justify: inter-word;
+line-height: 1;
 }
 
 p {
+  margin-top:.3rem;
   text-align: justify;
   text-justify: inter-word;}
 
-[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.1); }}  /*just for testing; remove*/
+/*[class^="row"] [class^="col"] { background-color: rgba(0, 0, 0, 0.06); }}  just for testing; remove*/
